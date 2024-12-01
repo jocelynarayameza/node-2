@@ -54,7 +54,6 @@ app.put('/canciones/:id', (req, res) => {
         }
 });
 
-// Ruta DELETE para eliminar una canción
 app.delete('/canciones/:id', (req, res) => {
         try {
                 const id = parseInt(req.params.id);
